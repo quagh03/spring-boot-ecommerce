@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-ecommerce-application
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_ecommerce?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Bangkok
+    username: root
+    password: lequanghuy2212
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8080
